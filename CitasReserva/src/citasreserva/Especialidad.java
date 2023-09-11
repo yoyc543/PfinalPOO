@@ -1,16 +1,9 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package citasreserva;
 
-/**
- *
- * @author christian
- */
 public class Especialidad {
-    int idEspecialidad;
-    String NombreEspecialidad;
+    private int idEspecialidad;
+    private String NombreEspecialidad;
 
     public Especialidad() {
     }
@@ -19,7 +12,7 @@ public class Especialidad {
         this.idEspecialidad = idEspecialidad;
         this.NombreEspecialidad = NombreEspecialidad;
     }
-    
+
     public int getIdEspecialidad() {
         return idEspecialidad;
     }
@@ -38,6 +31,7 @@ public class Especialidad {
 
     @Override
     public String toString() {
-        return  "Especialidad: " + idEspecialidad + ", NombreEspecialidad: " +'\n' + NombreEspecialidad;
-    }
+        return "Especialidad{" + "idEspecialidad=" + idEspecialidad + 
+                ", NombreEspecialidad=" + NombreEspecialidad + '}';
+    } 
 }

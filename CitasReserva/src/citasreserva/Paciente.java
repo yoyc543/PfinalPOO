@@ -1,13 +1,4 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package citasreserva;
-
-/**
- *
- * @author christian
- */
 public class Paciente {
     private int idPaciente;
     private int DNI;
@@ -16,6 +7,7 @@ public class Paciente {
     private String Sexo;
     private int Celular;
     private String Direccion;
+
 
     public int getIdPaciente() {
         return idPaciente;
@@ -72,5 +64,7 @@ public class Paciente {
     public void setDireccion(String Direccion) {
         this.Direccion = Direccion;
     }
+    
+    
     
 }
